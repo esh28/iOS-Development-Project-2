@@ -250,7 +250,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Most Successful Consoles of all Time/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "iOS.CS.UAkron.edu.Most-Successful-Consoles-of-all-Time";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.uakron.cs.ios.Most-Successful-Consoles-of-all-Time";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -261,7 +261,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Most Successful Consoles of all Time/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "iOS.CS.UAkron.edu.Most-Successful-Consoles-of-all-Time";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.uakron.cs.ios.Most-Successful-Consoles-of-all-Time";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

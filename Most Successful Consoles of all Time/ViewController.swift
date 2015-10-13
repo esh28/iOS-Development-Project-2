@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  Most Successful Consoles of all Time
 //
-//  Created by Hopkins,Eric on 10/13/15.
-//  Copyright © 2015 Hopkins,Eric. All rights reserved.
+//  Created by Eric S. Hopkins on 10/13/15.
+//  Copyright © 2015 Eric S. Hopkins. All rights reserved.
 //
 
 import UIKit
