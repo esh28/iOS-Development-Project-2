@@ -10,6 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var box1outlet: UITextField!
+    @IBOutlet weak var box2outlet: UITextField!
+    @IBOutlet weak var box3outlet: UITextField!
+    @IBOutlet weak var box4outlet: UITextField!
+    @IBOutlet weak var box5outlet: UITextField!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

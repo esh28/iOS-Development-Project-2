@@ -116,14 +116,6 @@
                                     <rect key="frame" x="198" y="85" width="437" height="30"/>
                                 </variation>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Test" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vXj-uI-hBe">
-                                <rect key="frame" x="83" y="118" width="237" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <variation key="heightClass=compact" misplaced="YES">
-                                    <rect key="frame" x="191" y="70" width="231" height="30"/>
-                                </variation>
-                            </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="5.)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ecH-cV-pgt">
                                 <rect key="frame" x="49" y="355" width="26" height="33"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -136,6 +128,14 @@
                                     <rect key="frame" x="56" y="357" width="26" height="33"/>
                                 </variation>
                             </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Test" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vXj-uI-hBe">
+                                <rect key="frame" x="83" y="118" width="237" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="heightClass=compact" misplaced="YES">
+                                    <rect key="frame" x="191" y="70" width="231" height="30"/>
+                                </variation>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.69523402441821625" green="0.76003909110673584" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -331,6 +331,13 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="box1outlet" destination="vXj-uI-hBe" id="HFu-Vy-fKJ"/>
+                        <outlet property="box2outlet" destination="RJf-5o-nNf" id="QQX-dm-0SX"/>
+                        <outlet property="box3outlet" destination="cAp-Sc-V8M" id="qyC-oK-f0U"/>
+                        <outlet property="box4outlet" destination="eD0-iA-wRs" id="UCq-Z4-MxY"/>
+                        <outlet property="box5outlet" destination="eYu-r1-rTU" id="B8q-Nm-Gdp"/>
+                    </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="256" y="343.5"/>
