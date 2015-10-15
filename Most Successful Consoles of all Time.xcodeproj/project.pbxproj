@@ -11,6 +11,7 @@
 		85C2421F1BCD62ED009A5963 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C2421E1BCD62ED009A5963 /* ViewController.swift */; };
 		85C242221BCD62ED009A5963 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85C242201BCD62ED009A5963 /* Main.storyboard */; };
 		85C242241BCD62ED009A5963 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85C242231BCD62ED009A5963 /* Assets.xcassets */; };
+		85E806701BD0019E00B99605 /* textboxinfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85E8066F1BD0019E00B99605 /* textboxinfo.plist */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		85C242211BCD62ED009A5963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85C242231BCD62ED009A5963 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85C242281BCD62ED009A5963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85E8066F1BD0019E00B99605 /* textboxinfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = textboxinfo.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				85C242201BCD62ED009A5963 /* Main.storyboard */,
 				85C242231BCD62ED009A5963 /* Assets.xcassets */,
 				85C242281BCD62ED009A5963 /* Info.plist */,
+				85E8066F1BD0019E00B99605 /* textboxinfo.plist */,
 			);
 			path = "Most Successful Consoles of all Time";
 			sourceTree = "<group>";
@@ -118,6 +121,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85E806701BD0019E00B99605 /* textboxinfo.plist in Resources */,
 				85C242241BCD62ED009A5963 /* Assets.xcassets in Resources */,
 				85C242221BCD62ED009A5963 /* Main.storyboard in Resources */,
 			);

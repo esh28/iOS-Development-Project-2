@@ -19,7 +19,21 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        guard let mainpath = NSBundle.mainBundle().pathForResource("textboxinfo", ofType: "plist") else {
+        
+            print("The Plist Path is Invalid")
+            return
+        }
+        
+        var readdata = NSDictionary(contentsOfFile: mainpath) as? Dictionary<String, String>
+        
+        box1outlet.text = readdata?["box1data"]
+        box2outlet.text = readdata?["box2data"]
+        box3outlet.text = readdata?["box3data"]
+        box4outlet.text = readdata?["box4data"]
+        box5outlet.text = readdata?["box5data"]
+        
     }
 
     override func didReceiveMemoryWarning() {
